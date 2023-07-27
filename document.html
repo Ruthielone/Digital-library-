@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ document[1] }}</title>
+</head>
+<body>
+    <h1>{{ document[0] }}</h1>
+    <iframe src="{{ url_for('static', filename='uploads/' + document[1]) }}" width="800" height="600"></iframe>
+</body>
+</html>
